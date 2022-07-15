@@ -1,0 +1,22 @@
+.cards{
+    margin: 5vh;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: aqua;
+    border-radius: 5%;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px; 
+    padding: 35px;
+    margin: 10px;
+    /* float: left; */
+}
+@media (max-width:1244px) and (min-width: 948px) {
+   .cards{
+       width: 196vh;
+    }
+}
